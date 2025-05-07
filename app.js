@@ -72,7 +72,7 @@ app.delete('/users/:id', (req, res) => {
     }
 
     const deleteUser = users.splice(userIndex, 1);
-    res.json({ message: 'User deleted', user: deleteUser[0] })
+    res.json({ message: 'User deleted succesfull', user: deleteUser[0] })
 })
 
 
